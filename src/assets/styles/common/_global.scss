@@ -1,0 +1,97 @@
+body {
+	font-family: $sans;
+	font-size: $font-18;
+	line-height: $line-height;
+	color: $black;
+  overflow-x: hidden;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+label,
+input {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p,
+ul {
+  margin-bottom: $default-margin;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+.container {
+  max-width: $max-width + $gutter;
+  margin: 0 auto;
+  padding: 0 $gutter / 2;
+}
+
+.btn {
+  border: 0;
+  background-color: transparent;
+  padding: 0;
+  cursor: pointer;
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+.btn-prev,
+.btn-next {
+  svg {
+    width: 25px;
+  }
+}
+
+.btn-open,
+.btn-hide {
+  display: none;
+}
+
+.alert {
+  text-align: center;
+}
+
+@media screen and (max-width: 48rem) {
+  .btn-prev,
+  .btn-next {
+    svg {
+      width: 20px;
+    }
+  }
+
+  .btn-open {
+    display: block;
+    color: $black;
+    background-color: $white;
+    margin-left: auto;
+    font-size: $font-14;
+    padding: 0.4375rem 0.625rem;
+    font-weight: 500;
+
+    &.btn-hide {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 36rem) {
+  .btn-prev,
+  .btn-next {
+    svg {
+      width: 16px;
+    }
+  }
+}
