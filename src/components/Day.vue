@@ -31,12 +31,12 @@
               <figure class="thumb"
                 v-for="(path, key) in image.images"
                 :key="path"
-                @click="openModal('slide-'+key)"
+                @click="openModal('slide-'+path)"
                 v-show="
                   (selectHashTag === allHashTagsTitle || image['hashtags'].includes(selectHashTag)) &&
                   (selectTag === allTagsTitle || image['tags'].includes(selectTag))"
                 >
-                <img :src="path | formatImageURL" alt="">
+                <img :src="path | formatImageURL" :foo="key" alt="">
               </figure>
             </template>
           </template>
@@ -53,9 +53,9 @@
           <template v-for="ranking in daysImages[currentDay]['images']">
             <template v-for="image in ranking">
               <swiper-slide
-                v-for="(path, key) in image.images"
+                v-for="path in image.images"
                 :key="path"
-                :id="'slide-'+key"
+                :id="'slide-'+path"
                 :class="{ visible: (selectHashTag === allHashTagsTitle || image['hashtags'].includes(selectHashTag)) &&
                   (selectTag === allTagsTitle || image['tags'].includes(selectTag)) }"
                 v-show="
