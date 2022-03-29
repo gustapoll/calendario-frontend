@@ -1,6 +1,6 @@
 <template>
   <div class="presentation">
-    <p>O Pantone político é um projeto que joga luz (e cor) ao apocalipse político e pandêmico de 2020. Dez cards diários, com as notícias “de verdade” que tiveram mais engajamento no Twitter, são publicados em tempo real. 24h X 7 dias + Link da notícia. No Instagram: <a href="https://instagram.com/pantonepolitico" target="_blank" rel="noopener noreferer">@pantonepolitico</a></p>
+    <p>O Pantone político é um projeto que joga luz (e cor) ao apocalipse político e pandêmico desde 2020 e busca combater as fake news disseminadas pelas redes bolsonaristas informando a população sobre a situação da Covid-19 no Brasil. O site divulga, 24hX7dias, dez cards com as dez notícias “de verdade” que tiveram mais engajamento no Twitter.</p>
   </div>
 </template>
 
