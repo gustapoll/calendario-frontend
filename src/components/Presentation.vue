@@ -1,6 +1,6 @@
 <template>
   <div class="presentation">
-    <p>Acesse as narrativas visuais sobre os principais acontecimentos sociopolíticos do Brasil, a partir de hashtags do Instagram. Selecione a # ou a data e verifique os temas mais ilustrados desde 1º de janeiro de 2019.</p>
+    <p>Visualize as principais imagens-mensagens dissidentes, editadas a partir de uma seleção de hashtags do Instagram. Acompanhe os principais acontecimentos sociopolíticos no Brasil desde 1º de janeiro de 2019 por meio de narrativas ativistas.</p>
   </div>
 </template>
 

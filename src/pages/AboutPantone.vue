@@ -2,19 +2,24 @@
   <div id="about">
     <Header :headerClass="headerClass" :headerSubtitle="headerSubtitle" :aboutLink="aboutLink" />
     <div class="container">
-      <p>“Pantone Político” é um projeto concebido inicialmente para o Instagram. Iniciado durante a pandemia do coronavírus no Brasil, pretende dar visibilidade aos principais acontecimentos do período informando sobre a situação do país,mergulhado em uma quádrupla pandemia (sanitária, política, econômica e social). A série é um registro da memória gráfica da política brasileira, na ordem cronológica dos fatos, e contribui de forma criativa, com seu papel social de informar.</p>
+      <p>O “Pantone Político” é um projeto concebido inicialmente para o Instagram. Criado durante o período da pandemia do coronavírus no Brasil, pretende dar visibilidade aos principais fatos, informando ao público das redes sobre a real situação do país – mergulhado em uma quádrupla pandemia (sanitária, política, econômica e social).</p>
+      <p>Devido a velocidade e o volume de acontecimentos diários, o projeto desenvolveu uma versão streaming para site, atualizada 24/7 (24 horas, 7 dias por semana). Esta versão sofreu algumas adaptações e a edição passou a ser maquínica, 100% automatizada. Criou-se um algoritmo para extrair as notícias mais tuitadas e compartilhadas dos seguintes veículos: @folha, @uol, @estadao, @estadaopolitica, @midianinja, @elpais_brasil, @JornalOGlobo, @TheInterceptBr, @canalmeio, @CNNBrasil.</p>
+      <p>O design set selecionou palavras-chaves vinculadas à Covid e a gestão Bolsonaro. A extração de dados do Twitter se deu a partir de uma autorização do aplicativo para que a pesquisadora tivesse uma API (Interface de Programação da Aplicação) Acadêmica, permitindo o download de um grande volume de dados para fins de pesquisa no campo do design e comunicação, sem fins lucrativos. Esse processo levou algumas semanas mas impulsionou qualitativamente e quantitativamente o projeto a outro patamar de mineração de dados retroativos e em tempo real.</p>
+      <p>A partir do momento em que utilizamos o Twitter como fonte da notícia – assumimos a participação política dos usuários desta rede.O caráter colaborativo que a caracteriza, no engajamento e na distribuição dos acontecimentos em tempo real, desse tempo surreal. Como esta versão é isenta da edição humana, as notícias mais tuitadas muitas vezes podem ser mais opinativas, o que confere o caráter dissidente do Pantone Político, aproximando-o do projeto de net art, o Calendariodissidente.fau.usp.br. – um site sobre as principais imagens dissidentes no Instagram – onde a página do Pantone Político também está publicada (calendoriodissidente.fau.usp.br/pantone).</p>
 
-      <p>Pelo fato da comunicação bolsonarista ter utilizado estratégias de disseminação de Fake news para diminuir a gravidade do Covid-19, via redes sociais, referindo-se ao coronavírus como se fosse uma “gripezinha”, a população foi muito prejudicada. Sobretudo os mais vulneráveis, que muitas vezes não têm acesso aos veículos de comunicação confiáveis e se informam no whatsapp, Instagram, Facebook e Youtube.</p>
+      <h2>Pantone como jogo de linguagem</h2>
+      <p>Por meio da metonímia, o projeto propõe um jogo entre o factual e a estética da cultura visual digital. Representa de uma forma original o papel do design de comunicação nas redes. Divulga de forma lúdica, as notícias sobre a pandêmia. Os títulos, pílulas tipográficas, são deslocados para cartões sequenciais, dispostos em tonalidades cromáticas apropriadas da escala de cores Pantone – referência estética para se falar de cor no mundo do design, moda e comunicação. Essas notícias, “embelezadas”, congeladas e plasmadas nos cards coloridos tem também como objetivo arquivar as notícias deste período nebuloso. A série é um registro da memória gráfica da política brasileira, na ordem cronológica dos fatos, e contribui de forma criativa, com seu papel social de informar.</p>
 
-      <p>Desde o dia 7 de maio de 2020, o Pantone Político publica diariamente no Instagram as 10 principais notícias de até 10 veículos de comunicação. Devido à velocidade e ao volume de acontecimentos diários, o projeto desenvolveu uma versão streaming, atualizada 24 horas, 7 dias por semana. Para tanto, foi desenvolvido um algoritmo que extrai, sem edição humana, as notícias mais tuitadas e compartilhadas por alguns serviços de comunicação, acerca dos temas abordados pelo projeto. Os perfis dos veículos varridos pelo projeto são: @folha, @uol, @estadao, @estadaopolitica, @midianinja, @elpais_brasil, @JornalOGlobo, @TheInterceptBr, @canalmeio, @CNNBrasil.</p>
+      <h2>Caráter colaborativo e para o grande público</h2>
+      <p>Este experimento gráfico faz parte da tese de doutorado de Didiana Prata sobre design dissidente e a cultura do design nas redes, no Curso de Pós-Graduação em Design da FAUUSP.  A realização do site exigiu uma equipe multidisciplinar: um designer gráfico, um web designer desenvolvedor do front end e dois cientistas de dados para a criação de um script próprio com todos os parâmetros para a seleção e extração das notícias. Destaca-se  o caráter colaborativo e experimental do projeto, cujos objetivos extravasam a pesquisa acadêmica.</p>
+      <p>O Calendário Dissidente - Pantone Político tem o potencial de alcançar a população em geral, a qualquer usuário da internet e das redes sociais, por meio do design.Os cards também saíram das telas e foram para as ruas, projetados em interfaces urbanas pelo coletivo @projetemos. As notícias coloridas atingiram um público muito além das redes. Desenhado em forma de um calendário, este projeto também dialoga com a memória gráfica e a diversidade do vocabulário estético das narrativas visuais dissidentes apresentadas no Calendário Dissidente: Cultura Visual e Memória Política Brasileira.</p>
 
-      <p>A partir do momento em que utilizamos o Twitter como fonte da notícia, assumimos a participação política dos usuários desta rede e seu o caráter colaborativo no engajamento e na distribuição dos acontecimentos em tempo real. Nesse sentido, o projeto se insere dentro do projeto do <a href="/">Calendário Dissidente</a> como mais uma narrativa visual dissidente.</p>
-
-      <h2>Escalas tonais</h2>
-
-      <p>O Pantone político, joga luz (e cor) no apocalipse político e pandêmico de 2020, da memória política brasileira e do obscurantismo do governo Bolsonaro. Por meio da metalinguagem, a edição diária do projeto propõe um jogo semântico entre o factual e a estética da cultura visual das redes. Os títulos das notícias, pílulas tipográficas, são deslocados para cards sequenciais, dispostos em tonalidades cromáticas apropriadas da escala de cores Pantone – referência estética para se falar de cor no mundo do design, da moda e da comunicação. Essas notícias, “embelezadas”, congeladas e plasmadas nos cards coloridos têm também como objetivo arquivar as notícias deste período nebuloso.</p>
-
-      <p>#pantonepolítico #designativista #política #quarentena #design #brasil #forabolsonaro</p>
+      <h2>Créditos</h2>
+      <p class="credit">Idealização e Design: Didiana Prata</p>
+      <p class="credit">Desenvolvimento: Vinicius Akira Imaizumi e Vinicius Ariel Arruda dos Santos  - Centro de Inteligência Artificial INOVA USP</p>
+      <p class="credit">Marcelo Villela Gusmão - programador independente</p>
+      <p class="credit">Orientação acadêmica: Giselle Beiguelman - FAUUSP</p>
+      <p class="credit">Apoio: FAUUSP e INOVA-USP</p>
 
     </div>
   </div>
@@ -76,6 +81,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
   #about {
     min-height: 60vh;
 
@@ -88,6 +94,10 @@ export default {
 
     h2 {
       font-size: $font-20;
+    }
+
+    .credit {
+      margin-bottom: auto;
     }
 
     a {
